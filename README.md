@@ -1,6 +1,6 @@
 # NxPeriodicTable
 
-A simple list of chemical element names and symbols using NX monorepo, Typescript and Express.
+A simple list of chemical element names and symbols using NX monorepo, TypeScript and Express.
 
 ## To run:
 
