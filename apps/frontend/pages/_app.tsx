@@ -7,6 +7,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Welcome to Periodic Table!</title>
+        <link rel="icon" type="image/png" href="periodic-table.png"></link>
       </Head>
       <main className="app">
         <Component {...pageProps} />
