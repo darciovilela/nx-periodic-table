@@ -18,6 +18,15 @@ input {
   border-radius: 5px;
 }
 
-span {
+.element-name {
+  font-size: 20px;
   color: blue;
+}
+
+.symbol {
+  color: black;
+}
+
+.appearance {
+  color: black;
 }

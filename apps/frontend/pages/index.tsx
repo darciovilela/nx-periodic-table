@@ -36,9 +36,13 @@ export const Index = () => {
       <hr className="horizontal-line"></hr>
 
       <ul>
-        {table.map(({ name, symbol }, id) => (
+        {table.map(({ name, symbol, appearance }, id) => (
           <li key={id}>
-            {name} - <span>{`symbol: ${symbol}`}</span>
+            <span className="element-name">{name}</span> <br></br>
+            <span className="symbol">{`Symbol: ${symbol}`}</span> <br></br>
+            {appearance && (
+              <span className="appearence">{`Appearance: ${appearance}`}</span>
+            )}
           </li>
         ))}
       </ul>
